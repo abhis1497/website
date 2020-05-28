@@ -1,53 +1,82 @@
-.carousel-item {
-    height: 300px;
-    overflow: hidden;
-}
-
-.carousel-control-prev {
-    color: black;
-}
-
-.carousel-item {
-    border-radius: 25px;
-}
-
-.title {
-    padding-left: 10px;
-    font-weight: 100;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 15px;
-}
-
-.services {
-    display: flex;
-    margin: 10px;
-    padding-top: 20px;
-    border-radius: 10px;
-    padding-right: 30px;
-
-}
-
-.service {
-    flex: 1;
-    height: 110px;
-    padding: 10px;
-    border-radius: 10px;
-    background: white;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: antiquewhite;
-};
-
-.carousel-text {
-    color: black;
-    text-shadow: 2px 2px 8px white;
-}
-
-.carousel-title {
-    color: white;
-    text-shadow: 2px 2px 8px gray;
+@media only screen and (min-width: 200px) {
+    .fa-angle-left {
+        color: black;
+    }
+    .fa-angle-right {
+        color: black;
+    }
+    /* .carousel-item {
+        border-radius: 25px;
+        max-width: 500px;
+        margin: auto;
+    } */
+    .title {
+        padding-left: 10px;
+        font-weight: 100;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
+    .services {
+        display: flex;
+        padding-top: 10px;
+    }
+    .service {
+        flex: 1;
+        height: 400px;
+        padding: 3px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 10px 10px 10px lightgrey;
+    }
+    .service-col {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(255, 255, 255);
+    }
+    .carousel-caption {
+        color: #000;
+        text-shadow: 2px 2px 8px gray;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        background-color: white;
+    }
+    .container {
+        box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        position: static;
+        top: -50px;
+        /* bottom: 500px; */
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+    }
+    .post-title {
+        font-weight: 100;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .post-content {
+        font-weight: 100;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .carousel-control-prev {
+        justify-content: left;
+    }
+    .carousel-control-next {
+        justify-content: left;
+        right: -30px;
+    }
+    .post-image {
+        background-color: white;
+    }
 }
